@@ -47,10 +47,10 @@ generate "backend" {
     terraform {
       required_providers {
         storj = {
-          # source = "F21/storj"
-          # version = "0.0.2-fork"
-          source = "storj/storj"
-          version = "0.0.1"
+          source = "F21/storj"
+          version = "0.0.2-fork1"
+          # source = "storj/storj"
+          # version = "0.0.1"
         }
       }
       cloud {
